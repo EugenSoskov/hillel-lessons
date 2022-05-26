@@ -1,0 +1,5 @@
+a = int(input( " Введите число "))
+b = 1
+while b <= a:
+    print(b, end=" ")
+    b = b * 2
