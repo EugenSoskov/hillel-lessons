@@ -1,0 +1,7 @@
+class1 = int(input("Количество учеников в классе?"))
+class2 = int(input("Количество учеников в классе?"))
+class3 = int(input("Количество учеников в классе?"))
+Tablle1 = (class1 // 2 + class1 % 2)
+Tablle2 = (class2 // 2 + class2 % 2)
+Tablle3 = (class3 // 2 + class3 % 2)
+print (Tablle1 + Tablle2 + Tablle3)
