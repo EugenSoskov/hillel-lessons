@@ -1,0 +1,6 @@
+Children = int(input("Сколько яблок взяли дети?"))
+Apple = int(input("Количество Яблок?"))
+Inhand = Apple // Children
+print(Inhand)
+Inbag = Apple % Children
+print(Inbag)
