@@ -1,0 +1,26 @@
+n = int(input("Введите числа "))
+min = max = n
+quantity: int = 0
+suma = 0
+arithmetic = 0
+
+while n != 0:
+    suma += n
+
+    if n > max:
+        max = n
+
+    if n < min:
+        min = n
+
+    if n > 0:
+        quantity += 1
+
+    n = int(input("Введите числа"))
+
+    arithmetic = int(suma / 2 + suma % 2)
+
+print(f'Максимальное число = {max}\nМинимальное число = {min}')
+print(f'Количество чисел = {quantity} ')
+print(f'Сумма чисел = {suma}')
+print(f'Средние арифметическое = {arithmetic}')
